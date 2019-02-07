@@ -1,0 +1,64 @@
+body{ 
+	background-image: url(../img/defaultBg.jpg);
+    background-size: cover;
+	background-attachment:fixed;
+	font-family:calibri, sans-serif;
+	font-size: 20px;
+	margin: 0 auto;
+	width: 1000px
+}
+
+div.main-div{
+	padding: 0 20px;
+	position: relative;
+	background-color: white;
+	height: 100%;
+}
+
+header{
+	text-align: center;
+	background-color: white;
+	padding-top: 20px;
+	margin-bottom: 15px;
+}
+
+hr{
+	clear:both;
+}
+div.mainTitle{
+	text-align: center;
+	color: white;
+	background-color: #212E40;
+	text-align: center;
+}
+
+
+	/* Paragraphe triangle expo */
+	div.lorem{
+		text-align: justify;
+	}
+
+
+/*Petite ligne pour pouvoir tester le scroll de la page
+A DELETE POUR ENLEVER LE SCROLL */
+p.scroll{
+	margin-top: 1000px
+}
+
+/* ------------------------- */
+
+/* Informations en bas de page */
+footer{
+	background-color: lightgray;
+	text-align: center;
+	width: 1000px;
+	height: 1.5em;
+	font-size: 15px;
+}
+
+footer p{
+	top: -13px;
+	width: 100%;
+	margin: 0;
+
+}
