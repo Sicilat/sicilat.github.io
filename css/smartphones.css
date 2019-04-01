@@ -1,0 +1,206 @@
+body{ 
+	background-image: url(../img/img_smartphones/smartphones.jpg);
+    background-size: cover;
+	background-attachment:fixed;
+	font-family:calibri, sans-serif;
+	font-size: 20px;
+	margin: 0 auto;
+	width: 1000px
+}
+
+
+div.main-div{
+	padding: 0 20px;
+	position: relative;
+	background-color: white;
+	height: 100%;
+}
+
+header{
+	text-align: center;
+	background-color: white;
+	padding-top: 20px;
+	margin-bottom: 15px;
+}
+
+div.mainTitle{
+	text-align: center;
+	color: white;
+	background-color: #212E40;
+	text-align: center;
+}
+
+/* BARRE DE NAVIGATION */
+nav {
+    font-family: monospace;
+    text-align: center;
+    right: 0;
+    padding-bottom: 60px;
+}
+
+a {
+  text-decoration: none;
+}
+
+.main-ul {
+  background: #db930c;
+  list-style: none;
+  margin: auto;
+  padding-left: 0;
+  width: 100%;
+  right: 0;
+}
+
+.main-btn {
+  color: #fff;
+  background: #db930c;
+  display: block;
+  float: left;
+  padding: 10px;
+  position: relative;
+  text-decoration: none;
+  transition-duration: 0.5s;
+  width: 220px;
+  height: 40px;
+
+}
+  
+.main-ul li a {
+  position: absolute;
+  color: #fff;
+  left: 0;
+  right: 0;
+  margin-left: auto;
+  margin-right: auto;
+  top: 0;
+  bottom: 0;
+  margin-top: auto;
+  margin-bottom: auto;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  vertical-align: middle;
+}
+
+.main-btn:hover,
+.main-btn:focus {
+    background: red;
+    cursor: pointer;
+}
+
+.main-ul li:focus a {
+  outline: none;
+}
+
+.dropdown {
+  background: #db930c;
+  visibility: hidden;
+  opacity: 0;
+  position: absolute;
+  transition: all 0.5s ease;
+  top: 0;
+  margin-top: 60px;
+  left: 0;
+  right: 15px;
+  display: none;
+  padding:  0;
+  padding-left: 15px;
+}
+
+.second-btn{
+  clear: both;
+  background: #212E40;
+  padding: 0;
+  color: #fff;
+  display: block;
+  float: left;
+  position: relative;
+  text-decoration: none;
+  transition-duration: 0.5s;
+  width: 225px;
+  height: 40px;
+}
+
+.second-btn a{
+  height: 100%;
+}
+
+.main-ul li:hover > ul,
+.main-ul li:focus > ul,
+.main-ul li ul:hover,
+.main-ul li ul:focus {
+  visibility: visible;
+  opacity: 1;
+  display: block;
+}
+
+.second-btn:hover,
+.second-btn:focus {
+  padding-left: 10px;
+  cursor: pointer;
+  transition-duration: 0.5s;
+  background: #414E60;
+}
+/* ------------------------- */
+
+hr{
+	clear:both;
+}
+
+
+
+
+	div.Intro{
+		text-align: justify;
+	}
+
+/* ------------------------- */
+
+/* Informations en bas de page */
+footer{
+	background-color: lightgray;
+	text-align: center;
+	width: 1000px;
+	height: 1.5em;
+	font-size: 15px;
+}
+
+footer{
+	background-color: lightgray;
+	text-align: center;
+	width: 1000px;
+	height: 1.5em;
+	font-size: 15px;
+}
+
+footer p{
+	top: -13px;
+	width: 100%;
+	margin: 0;
+	text-align: center;
+
+}
+
+
+div.suite1 img{
+	border-width:3px;
+    border-style:solid;
+    border-color:black;
+}
+
+
+div.suite1 {
+text-align: justify;
+}
+
+div.conseils {
+text-align: justify;
+}
+
+div.conclusion {
+text-align: justify;
+}
+
+
+
